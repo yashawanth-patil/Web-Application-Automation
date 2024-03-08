@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  CNCv3 AutomationTest-Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CNCv3 AutomationTest-Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 22 05:22:44 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>621 seconds (621241 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.Login_TC_001.LoginTest()'><b>LoginTest</b><br>Test class: com.sunmobility.qa.Testcases.Login_TC_001</td>
+<td></td>
+<td>15</td>
+<td>com.sunmobility.qa.Testcases.Login_TC_001@4944252c</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.BatteryLastseenreport_TC_006.checkBatteryLasetseen()'><b>checkBatteryLasetseen</b><br>Test class: com.sunmobility.qa.Testcases.BatteryLastseenreport_TC_006</td>
+<td></td>
+<td>66</td>
+<td>com.sunmobility.qa.Testcases.BatteryLastseenreport_TC_006@72cde7cc</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.BatteryServiceTimeTrend_TC_0014.checkBatteryServiceTrend()'><b>checkBatteryServiceTrend</b><br>Test class: com.sunmobility.qa.Testcases.BatteryServiceTimeTrend_TC_0014</td>
+<td></td>
+<td>46</td>
+<td>com.sunmobility.qa.Testcases.BatteryServiceTimeTrend_TC_0014@41e1e210</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.Battery_Service_Time_TC_008.checkBatteryserviceTime()'><b>checkBatteryserviceTime</b><br>Test class: com.sunmobility.qa.Testcases.Battery_Service_Time_TC_008</td>
+<td></td>
+<td>28</td>
+<td>com.sunmobility.qa.Testcases.Battery_Service_Time_TC_008@53976f5c</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.Batterysummary_TC_011.checkBatterysummary()'><b>checkBatterysummary</b><br>Test class: com.sunmobility.qa.Testcases.Batterysummary_TC_011</td>
+<td></td>
+<td>45</td>
+<td>com.sunmobility.qa.Testcases.Batterysummary_TC_011@79da8dc5</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.BatterysummaryTIU_TC_005.checkBatterysummaryTIUzone()'><b>checkBatterysummaryTIUzone</b><br>Test class: com.sunmobility.qa.Testcases.BatterysummaryTIU_TC_005</td>
+<td></td>
+<td>41</td>
+<td>com.sunmobility.qa.Testcases.BatterysummaryTIU_TC_005@67080771</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.BatteryAlerts_TC_0015.checkBatteyAlerts()'><b>checkBatteyAlerts</b><br>Test class: com.sunmobility.qa.Testcases.BatteryAlerts_TC_0015</td>
+<td></td>
+<td>55</td>
+<td>com.sunmobility.qa.Testcases.BatteryAlerts_TC_0015@696da30b</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.Daily_Station_Report_TC_012.checkDailyStationreport()'><b>checkDailyStationreport</b><br>Test class: com.sunmobility.qa.Testcases.Daily_Station_Report_TC_012</td>
+<td></td>
+<td>36</td>
+<td>com.sunmobility.qa.Testcases.Daily_Station_Report_TC_012@be35cd9</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.PiaggioDriveData_TC_009.checkPiaggioData()'><b>checkPiaggioData</b><br>Test class: com.sunmobility.qa.Testcases.PiaggioDriveData_TC_009</td>
+<td></td>
+<td>21</td>
+<td>com.sunmobility.qa.Testcases.PiaggioDriveData_TC_009@2f8dad04</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.Station_Trend_TC_018.checkStationTrend()'><b>checkStationTrend</b><br>Test class: com.sunmobility.qa.Testcases.Station_Trend_TC_018</td>
+<td></td>
+<td>33</td>
+<td>com.sunmobility.qa.Testcases.Station_Trend_TC_018@29e495ff</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.Daily_Vehicle_Report_TC_007.checkVehicleReport()'><b>checkVehicleReport</b><br>Test class: com.sunmobility.qa.Testcases.Daily_Vehicle_Report_TC_007</td>
+<td></td>
+<td>24</td>
+<td>com.sunmobility.qa.Testcases.Daily_Vehicle_Report_TC_007@4e7912d8</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.VehicleTrend_TC_010.checkVehicleTrend()'><b>checkVehicleTrend</b><br>Test class: com.sunmobility.qa.Testcases.VehicleTrend_TC_010</td>
+<td></td>
+<td>23</td>
+<td>com.sunmobility.qa.Testcases.VehicleTrend_TC_010@2bfc268b</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.SwapReport_TC_004.checkswapreport()'><b>checkswapreport</b><br>Test class: com.sunmobility.qa.Testcases.SwapReport_TC_004</td>
+<td></td>
+<td>39</td>
+<td>com.sunmobility.qa.Testcases.SwapReport_TC_004@1eb5174b</td></tr>
+<tr>
+<td title='com.sunmobility.qa.Testcases.BatteryStationLive_TC_002.clickonstationlive()'><b>clickonstationlive</b><br>Test class: com.sunmobility.qa.Testcases.BatteryStationLive_TC_002</td>
+<td></td>
+<td>27</td>
+<td>com.sunmobility.qa.Testcases.BatteryStationLive_TC_002@5fd4f8f5</td></tr>
+</table><p>
+</body>
+</html>

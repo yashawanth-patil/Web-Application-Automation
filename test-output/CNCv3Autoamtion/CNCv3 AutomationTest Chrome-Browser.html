@@ -1,0 +1,544 @@
+<html>
+<head>
+<title>TestNG:  CNCv3 AutomationTest Chrome-Browser</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CNCv3 AutomationTest Chrome-Browser</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/2</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 09 10:01:14 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>891 seconds (891410 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td>Smoke Test </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.Login_TC_001.LoginTest()'><b>LoginTest</b><br>Test class: com.sunmobility.qa.RegressionTestcases.Login_TC_001<br/>
+<a href="#Output-845119401" onClick='toggleBox("Output-845119401", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-845119401" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-845119401">
+URL is opened<br/>
+Entering user credentials<br/>
+Homepage is displayed<br/>
+Login Test pass<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.sunmobility.qa.RegressionTestcases.Login_TC_001@247d8ae</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.BatteryLive_TC_003.checkBateryLive()'><b>checkBateryLive</b><br>Test class: com.sunmobility.qa.RegressionTestcases.BatteryLive_TC_003<br/>
+<a href="#Output-77738832" onClick='toggleBox("Output-77738832", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-77738832" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-77738832">
+Entering user credentials<br/>
+Selecting the specified locatiion for Battery status<br/>
+Navigating BatteryLivePage<br/>
+BatteryLive page is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.sunmobility.qa.RegressionTestcases.BatteryLive_TC_003@6a84a97d</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.BatteryLastseenreport_TC_009.checkBatteryLasetseen()'><b>checkBatteryLasetseen</b><br>Test class: com.sunmobility.qa.RegressionTestcases.BatteryLastseenreport_TC_009<br/>
+<a href="#Output-481952545" onClick='toggleBox("Output-481952545", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-481952545" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-481952545">
+Entering user credentials<br/>
+navigating to batterylast-seen<br/>
+selecting the specifed zone<br/>
+BatteryLastseen data is displayed for specified zone<br/>
+</div>
+</td>
+<td></td>
+<td>79</td>
+<td>com.sunmobility.qa.RegressionTestcases.BatteryLastseenreport_TC_009@20f5239f</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015.checkBatteryServiceTrend()'><b>checkBatteryServiceTrend</b><br>Test class: com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015<br/>
+<a href="#Output-2053115425" onClick='toggleBox("Output-2053115425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2053115425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2053115425">
+Entering user credentials<br/>
+Selecting specifed  location<br/>
+Navigating to Battery-serviceTrend<br/>
+selecting the specifed service-loaction and stationID<br/>
+selecting soc change<br/>
+selecting the required date<br/>
+click on submit<br/>
+Battery service Time Trend data is displayed for specifed zone and soc<br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015@29d89d5d</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012.checkBatteryserviceTime()'><b>checkBatteryserviceTime</b><br>Test class: com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012<br/>
+<a href="#Output-677696333" onClick='toggleBox("Output-677696333", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-677696333" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-677696333">
+Entering user credentials<br/>
+Selecting specifed location<br/>
+Naviagting to battery service-Time<br/>
+selected date batterydata is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012@932bc4a</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.Batterysummary_TC_006.checkBatterysummary()'><b>checkBatterysummary</b><br>Test class: com.sunmobility.qa.RegressionTestcases.Batterysummary_TC_006<br/>
+<a href="#Output-554510956" onClick='toggleBox("Output-554510956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-554510956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-554510956">
+Entering user credentials<br/>
+Selecting location<br/>
+selecting service location<br/>
+selecting specified location<br/>
+selecting the specifed stationID<br/>
+The selected data is displayed for specified location and stationID<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>com.sunmobility.qa.RegressionTestcases.Batterysummary_TC_006@223aa2f7</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.BatterysummaryTIU_TC_008.checkBatterysummaryTIUzone()'><b>checkBatterysummaryTIUzone</b><br>Test class: com.sunmobility.qa.RegressionTestcases.BatterysummaryTIU_TC_008<br/>
+<a href="#Output-2132961406" onClick='toggleBox("Output-2132961406", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2132961406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2132961406">
+Entering user credentials<br/>
+selcting zone<br/>
+Navigating to BatteryTIU<br/>
+selecting sepecfied date<br/>
+click on submit<br/>
+BatterySummaryTIU is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>86</td>
+<td>com.sunmobility.qa.RegressionTestcases.BatterysummaryTIU_TC_008@193f604a</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.BatteryAlerts_TC_005.checkBatteyAlerts()'><b>checkBatteyAlerts</b><br>Test class: com.sunmobility.qa.RegressionTestcases.BatteryAlerts_TC_005<br/>
+<a href="#Output-2073333566" onClick='toggleBox("Output-2073333566", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2073333566" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2073333566">
+Entering user credentials<br/>
+Navigating to Battery alerts page<br/>
+Selecting specified location<br/>
+Battery alerts displayed for specided BatteryID<br/>
+</div>
+</td>
+<td></td>
+<td>77</td>
+<td>com.sunmobility.qa.RegressionTestcases.BatteryAlerts_TC_005@50ad3bc1</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.Daily_Station_Report_TC_011.checkDailyStationreport()'><b>checkDailyStationreport</b><br>Test class: com.sunmobility.qa.RegressionTestcases.Daily_Station_Report_TC_011<br/>
+<a href="#Output-293207180" onClick='toggleBox("Output-293207180", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-293207180" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-293207180">
+Entering user credentials<br/>
+Selecting location<br/>
+Navigating to daily-station-report<br/>
+selecting specified service location<br/>
+selecting specified station-ID<br/>
+selecting the date<br/>
+daily station-report displayed<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>com.sunmobility.qa.RegressionTestcases.Daily_Station_Report_TC_011@6bedbc4d</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016.checkPiaggioData()'><b>checkPiaggioData</b><br>Test class: com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016<br/>
+<a href="#Output-224950719" onClick='toggleBox("Output-224950719", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-224950719" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-224950719">
+Entering user credentials<br/>
+Navigating to PiaggioData page<br/>
+Selecting the specifed zone<br/>
+Selcting the specifed vehicle <br/>
+Selecting the specifed manufacturer<br/>
+Selecting the date range for data<br/>
+Data is displayed for specifed zone <br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016@3514a4c0</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.StationTrend_TC_013.checkStationTrend()'><b>checkStationTrend</b><br>Test class: com.sunmobility.qa.RegressionTestcases.StationTrend_TC_013<br/>
+<a href="#Output-2037903430" onClick='toggleBox("Output-2037903430", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2037903430" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2037903430">
+Entering user credentials<br/>
+Selecting location<br/>
+Navigating to Station-Trend<br/>
+selecting specified service loaction<br/>
+selecting specified station-ID<br/>
+stationTrend data is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>com.sunmobility.qa.RegressionTestcases.StationTrend_TC_013@d29f28</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.Daily_Vehicle_Report_TC_010.checkVehicleReport()'><b>checkVehicleReport</b><br>Test class: com.sunmobility.qa.RegressionTestcases.Daily_Vehicle_Report_TC_010<br/>
+<a href="#Output-1521986562" onClick='toggleBox("Output-1521986562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1521986562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1521986562">
+URL is opened<br/>
+Entering user credentials<br/>
+Navigating to Daily-vehcile report<br/>
+showing the selected data<br/>
+DailyVehicleReport Data is displayed for particular location<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>com.sunmobility.qa.RegressionTestcases.Daily_Vehicle_Report_TC_010@57af006c</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.VehicleTrend_TC_014.checkVehicleTrend()'><b>checkVehicleTrend</b><br>Test class: com.sunmobility.qa.RegressionTestcases.VehicleTrend_TC_014<br/>
+<a href="#Output-2078250226" onClick='toggleBox("Output-2078250226", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2078250226" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2078250226">
+Entering user credentials<br/>
+Navigating to Vehicle-Trend<br/>
+Selecting location<br/>
+Selecting the specifed date<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.sunmobility.qa.RegressionTestcases.VehicleTrend_TC_014@2fd1433e</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.Login_TC_001.checklogo()'><b>checklogo</b><br>Test class: com.sunmobility.qa.RegressionTestcases.Login_TC_001<br/>
+<a href="#Output-524566446" onClick='toggleBox("Output-524566446", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-524566446" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-524566446">
+application logo is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.sunmobility.qa.RegressionTestcases.Login_TC_001@247d8ae</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.BatteryStationLive_TC_002.checkstationlive()'><b>checkstationlive</b><br>Test class: com.sunmobility.qa.RegressionTestcases.BatteryStationLive_TC_002<br/>
+<a href="#Output-117249632" onClick='toggleBox("Output-117249632", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-117249632" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-117249632">
+Entering user credentials<br/>
+selecting  specified location<br/>
+navigating to stationlive<br/>
+Selecting station<br/>
+selecting station-ID<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>com.sunmobility.qa.RegressionTestcases.BatteryStationLive_TC_002@48974e45</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.SwapReport_TC_007.checkswapreport()'><b>checkswapreport</b><br>Test class: com.sunmobility.qa.RegressionTestcases.SwapReport_TC_007<br/>
+<a href="#Output-903794242" onClick='toggleBox("Output-903794242", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-903794242" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-903794242">
+url is opened<br/>
+Entering user credentials<br/>
+Selecting location<br/>
+navigating to swap-report<br/>
+selecting service location<br/>
+selecting specified location<br/>
+selecting the specifed stationID<br/>
+The selected data is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>44</td>
+<td>com.sunmobility.qa.RegressionTestcases.SwapReport_TC_007@6d3a388c</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004.clickonstationalert()'><b>clickonstationalert</b><br>Test class: com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004<br/>
+<a href="#Output-175822565" onClick='toggleBox("Output-175822565", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-175822565" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-175822565">
+opening browser<br/>
+Entering user credentials<br/>
+Navigating to stationalertlive<br/>
+Station alerts page displayed with station information<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004@6c130c45</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015.checkBatteryServiceTrend()'><b>checkBatteryServiceTrend</b><br>Test class: com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015<br/>
+<a href="#Output-2021279001" onClick='toggleBox("Output-2021279001", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2021279001" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2021279001">
+Entering user credentials<br/>
+Selecting specifed  location<br/>
+Navigating to Battery-serviceTrend<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-dgw-c15=&quot;&quot; class=&quot;pcoded-mtext&quot;&gt;...&lt;/span&gt; is not clickable at point (130, 737). Other element would receive the click: &lt;a _ngcontent-dgw-c15=&quot;&quot; class=&quot;nav-link&quot; target=&quot;_self&quot; href=&quot;/batteryservicetimetrend&quot;&gt;...&lt;/a&gt;
+  (Session info: headless chrome=86.0.4240.183)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-6581DCU&apos;, ip: &apos;10.10.30.168&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\rakesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4f8b815ef91a2bd36460fe61d18c3e86
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.sunmobility.qa.RegressionTestcases.Baseclass.webdriverwait(Baseclass.java:115)
+	at com.sunmobility.qa.pages.BatteryServiceTimeTrendPage.clickonStaionTrend(BatteryServiceTimeTrendPage.java:56)
+	at com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015.checkBatteryServiceTrend(BatteryServiceTimeTrend_TC_015.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2021279001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2021279001'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-dgw-c15=&quot;&quot; class=&quot;pcoded-mtext&quot;&gt;...&lt;/span&gt; is not clickable at point (130, 737). Other element would receive the click: &lt;a _ngcontent-dgw-c15=&quot;&quot; class=&quot;nav-link&quot; target=&quot;_self&quot; href=&quot;/batteryservicetimetrend&quot;&gt;...&lt;/a&gt;
+  (Session info: headless chrome=86.0.4240.183)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-6581DCU&apos;, ip: &apos;10.10.30.168&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\rakesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4f8b815ef91a2bd36460fe61d18c3e86
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.sunmobility.qa.RegressionTestcases.Baseclass.webdriverwait(Baseclass.java:115)
+	at com.sunmobility.qa.pages.BatteryServiceTimeTrendPage.clickonStaionTrend(BatteryServiceTimeTrendPage.java:56)
+	at com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015.checkBatteryServiceTrend(BatteryServiceTimeTrend_TC_015.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>27</td>
+<td>com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015@29d89d5d</td></tr>
+<tr>
+<td title='com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016.checkPiaggioData()'><b>checkPiaggioData</b><br>Test class: com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016<br/>
+<a href="#Output-1422714112" onClick='toggleBox("Output-1422714112", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1422714112" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1422714112">
+Entering user credentials<br/>
+Navigating to PiaggioData page<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-uye-c15=&quot;&quot; class=&quot;pcoded-mtext&quot;&gt;...&lt;/span&gt; is not clickable at point (102, 758). Other element would receive the click: &lt;a _ngcontent-uye-c15=&quot;&quot; class=&quot;nav-link&quot; target=&quot;_self&quot; href=&quot;/piaggiodrivedata&quot;&gt;...&lt;/a&gt;
+  (Session info: headless chrome=86.0.4240.183)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-6581DCU&apos;, ip: &apos;10.10.30.168&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\rakesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eb56184eec06bc639d493cbc1b118d4b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.sunmobility.qa.RegressionTestcases.Baseclass.webdriverwait(Baseclass.java:115)
+	at com.sunmobility.qa.pages.PiaggioDriveDataPage.clickonpiaggioData(PiaggioDriveDataPage.java:61)
+	at com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016.checkPiaggioData(PiaggioDriveData_TC_016.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1422714112", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1422714112'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-uye-c15=&quot;&quot; class=&quot;pcoded-mtext&quot;&gt;...&lt;/span&gt; is not clickable at point (102, 758). Other element would receive the click: &lt;a _ngcontent-uye-c15=&quot;&quot; class=&quot;nav-link&quot; target=&quot;_self&quot; href=&quot;/piaggiodrivedata&quot;&gt;...&lt;/a&gt;
+  (Session info: headless chrome=86.0.4240.183)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-6581DCU&apos;, ip: &apos;10.10.30.168&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\rakesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eb56184eec06bc639d493cbc1b118d4b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.sunmobility.qa.RegressionTestcases.Baseclass.webdriverwait(Baseclass.java:115)
+	at com.sunmobility.qa.pages.PiaggioDriveDataPage.clickonpiaggioData(PiaggioDriveDataPage.java:61)
+	at com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016.checkPiaggioData(PiaggioDriveData_TC_016.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016@3514a4c0</td></tr>
+</table><p>
+</body>
+</html>

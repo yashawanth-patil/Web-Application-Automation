@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.sunmobility.qa.Testcases.BatterStationLiveTest">
+        <methods>
+          <include name="StaionTemp"/>
+          <include name="selectzone"/>
+          <include name="openreport"/>
+          <include name="getapplicationtitle"/>
+          <include name="openapplication"/>
+          <include name="stationinformation"/>
+          <include name="closereport"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.sunmobility.qa.Testcases.BatterStationLiveTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

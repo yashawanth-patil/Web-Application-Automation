@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CNCv3Autoamtion]">
+  <listeners>
+    <listener class-name="com.sunmobility.qa.Utilites.Reporting"/>
+    <listener class-name="com.sunmobility.qa.Utilites.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="CNCv3 AutomationTest Chrome-Browser(failed)">
+    <parameter name="browser" value="edge"/>
+    <groups>
+      <run>
+        <exclude name="Smoke Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004">
+        <methods>
+          <include name="clickonstationalert"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004 -->
+    </classes>
+  </test> <!-- CNCv3 AutomationTest Chrome-Browser(failed) -->
+</suite> <!-- Failed suite [CNCv3Autoamtion] -->

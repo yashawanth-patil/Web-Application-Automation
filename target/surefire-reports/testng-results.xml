@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="18" passed="17">
+  <reporter-output>
+    <line>
+      <![CDATA[URL is opened]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Homepage is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[selecting  specified location]]>
+    </line>
+    <line>
+      <![CDATA[navigating to stationlive]]>
+    </line>
+    <line>
+      <![CDATA[Selecting station]]>
+    </line>
+    <line>
+      <![CDATA[selecting station-ID]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the specified locatiion for Battery status]]>
+    </line>
+    <line>
+      <![CDATA[Navigating BatteryLivePage]]>
+    </line>
+    <line>
+      <![CDATA[BatteryLive page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to stationalertlive]]>
+    </line>
+    <line>
+      <![CDATA[opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to stationalertlive]]>
+    </line>
+    <line>
+      <![CDATA[Station alerts page displayed with station information]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to Battery alerts page]]>
+    </line>
+    <line>
+      <![CDATA[Selecting specified location]]>
+    </line>
+    <line>
+      <![CDATA[Battery alerts displayed for specided BatteryID]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Selecting location]]>
+    </line>
+    <line>
+      <![CDATA[selecting service location]]>
+    </line>
+    <line>
+      <![CDATA[selecting specified location]]>
+    </line>
+    <line>
+      <![CDATA[selecting the specifed stationID]]>
+    </line>
+    <line>
+      <![CDATA[The selected data is displayed for specified location and stationID]]>
+    </line>
+    <line>
+      <![CDATA[url is opened]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Selecting location]]>
+    </line>
+    <line>
+      <![CDATA[navigating to swap-report]]>
+    </line>
+    <line>
+      <![CDATA[selecting service location]]>
+    </line>
+    <line>
+      <![CDATA[selecting specified location]]>
+    </line>
+    <line>
+      <![CDATA[selecting the specifed stationID]]>
+    </line>
+    <line>
+      <![CDATA[The selected data is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[selcting zone]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to BatteryTIU]]>
+    </line>
+    <line>
+      <![CDATA[selecting sepecfied date]]>
+    </line>
+    <line>
+      <![CDATA[click on submit]]>
+    </line>
+    <line>
+      <![CDATA[BatterySummaryTIU is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[navigating to batterylast-seen]]>
+    </line>
+    <line>
+      <![CDATA[selecting the specifed zone]]>
+    </line>
+    <line>
+      <![CDATA[BatteryLastseen data is displayed for specified zone]]>
+    </line>
+    <line>
+      <![CDATA[URL is opened]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to Daily-vehcile report]]>
+    </line>
+    <line>
+      <![CDATA[showing the selected data]]>
+    </line>
+    <line>
+      <![CDATA[DailyVehicleReport Data is displayed for particular location]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Selecting location]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to daily-station-report]]>
+    </line>
+    <line>
+      <![CDATA[selecting specified service location]]>
+    </line>
+    <line>
+      <![CDATA[selecting specified station-ID]]>
+    </line>
+    <line>
+      <![CDATA[selecting the date]]>
+    </line>
+    <line>
+      <![CDATA[daily station-report displayed]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Selecting specifed location]]>
+    </line>
+    <line>
+      <![CDATA[Naviagting to battery service-Time]]>
+    </line>
+    <line>
+      <![CDATA[selected date batterydata is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Selecting location]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to Station-Trend]]>
+    </line>
+    <line>
+      <![CDATA[selecting specified service loaction]]>
+    </line>
+    <line>
+      <![CDATA[selecting specified station-ID]]>
+    </line>
+    <line>
+      <![CDATA[stationTrend data is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to Vehicle-Trend]]>
+    </line>
+    <line>
+      <![CDATA[Selecting location]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the specifed date]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Selecting specifed  location]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to Battery-serviceTrend]]>
+    </line>
+    <line>
+      <![CDATA[selecting the specifed service-loaction and stationID]]>
+    </line>
+    <line>
+      <![CDATA[selecting soc change]]>
+    </line>
+    <line>
+      <![CDATA[selecting the required date]]>
+    </line>
+    <line>
+      <![CDATA[click on submit]]>
+    </line>
+    <line>
+      <![CDATA[Battery service Time Trend data is displayed for specifed zone and soc]]>
+    </line>
+    <line>
+      <![CDATA[Entering user credentials]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to PiaggioData page]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the specifed zone]]>
+    </line>
+    <line>
+      <![CDATA[Selcting the specifed vehicle ]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the specifed manufacturer]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the date range for data]]>
+    </line>
+    <line>
+      <![CDATA[Data is displayed for specifed zone ]]>
+    </line>
+    <line>
+      <![CDATA[application logo is displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="CNCv3Autoamtion" duration-ms="917956" started-at="2020-11-23T04:22:07Z" finished-at="2020-11-23T04:37:25Z">
+    <groups>
+    </groups>
+    <test name="CNCv3 AutomationTest Chrome-Browser" duration-ms="917956" started-at="2020-11-23T04:22:07Z" finished-at="2020-11-23T04:37:25Z">
+      <class name="com.sunmobility.qa.RegressionTestcases.StationTrend_TC_013">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.StationTrend_TC_013@12d3a4e9]" name="setup" is-config="true" duration-ms="11136" started-at="2020-11-23T04:33:34Z" finished-at="2020-11-23T04:33:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkStationTrend()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.StationTrend_TC_013@12d3a4e9]" name="checkStationTrend" duration-ms="37561" started-at="2020-11-23T04:33:46Z" finished-at="2020-11-23T04:34:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Selecting location]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to Station-Trend]]>
+            </line>
+            <line>
+              <![CDATA[selecting specified service loaction]]>
+            </line>
+            <line>
+              <![CDATA[selecting specified station-ID]]>
+            </line>
+            <line>
+              <![CDATA[stationTrend data is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStationTrend -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.StationTrend_TC_013@12d3a4e9]" name="teardown" is-config="true" duration-ms="781" started-at="2020-11-23T04:34:23Z" finished-at="2020-11-23T04:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.StationTrend_TC_013 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.Daily_Station_Report_TC_011">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Daily_Station_Report_TC_011@55ca8de8]" name="setup" is-config="true" duration-ms="11415" started-at="2020-11-23T04:32:00Z" finished-at="2020-11-23T04:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkDailyStationreport()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Daily_Station_Report_TC_011@55ca8de8]" name="checkDailyStationreport" duration-ms="34663" started-at="2020-11-23T04:32:12Z" finished-at="2020-11-23T04:32:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Selecting location]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to daily-station-report]]>
+            </line>
+            <line>
+              <![CDATA[selecting specified service location]]>
+            </line>
+            <line>
+              <![CDATA[selecting specified station-ID]]>
+            </line>
+            <line>
+              <![CDATA[selecting the date]]>
+            </line>
+            <line>
+              <![CDATA[daily station-report displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkDailyStationreport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Daily_Station_Report_TC_011@55ca8de8]" name="teardown" is-config="true" duration-ms="790" started-at="2020-11-23T04:32:47Z" finished-at="2020-11-23T04:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.Daily_Station_Report_TC_011 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.BatteryStationLive_TC_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryStationLive_TC_002@5b0abc94]" name="setup" is-config="true" duration-ms="11274" started-at="2020-11-23T04:22:43Z" finished-at="2020-11-23T04:22:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkstationlive()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryStationLive_TC_002@5b0abc94]" name="checkstationlive" duration-ms="30151" started-at="2020-11-23T04:22:54Z" finished-at="2020-11-23T04:23:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[selecting  specified location]]>
+            </line>
+            <line>
+              <![CDATA[navigating to stationlive]]>
+            </line>
+            <line>
+              <![CDATA[Selecting station]]>
+            </line>
+            <line>
+              <![CDATA[selecting station-ID]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkstationlive -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryStationLive_TC_002@5b0abc94]" name="teardown" is-config="true" duration-ms="747" started-at="2020-11-23T04:23:25Z" finished-at="2020-11-23T04:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.BatteryStationLive_TC_002 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.BatterysummaryTIU_TC_008">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatterysummaryTIU_TC_008@214b199c]" name="setup" is-config="true" duration-ms="11264" started-at="2020-11-23T04:28:53Z" finished-at="2020-11-23T04:29:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkBatterysummaryTIUzone()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatterysummaryTIU_TC_008@214b199c]" name="checkBatterysummaryTIUzone" duration-ms="38936" started-at="2020-11-23T04:29:04Z" finished-at="2020-11-23T04:29:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[selcting zone]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to BatteryTIU]]>
+            </line>
+            <line>
+              <![CDATA[selecting sepecfied date]]>
+            </line>
+            <line>
+              <![CDATA[click on submit]]>
+            </line>
+            <line>
+              <![CDATA[BatterySummaryTIU is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkBatterysummaryTIUzone -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatterysummaryTIU_TC_008@214b199c]" name="teardown" is-config="true" duration-ms="766" started-at="2020-11-23T04:29:43Z" finished-at="2020-11-23T04:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.BatterysummaryTIU_TC_008 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.VehicleTrend_TC_014">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.VehicleTrend_TC_014@240237d2]" name="setup" is-config="true" duration-ms="11117" started-at="2020-11-23T04:34:24Z" finished-at="2020-11-23T04:34:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkVehicleTrend()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.VehicleTrend_TC_014@240237d2]" name="checkVehicleTrend" duration-ms="34132" started-at="2020-11-23T04:34:35Z" finished-at="2020-11-23T04:35:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to Vehicle-Trend]]>
+            </line>
+            <line>
+              <![CDATA[Selecting location]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the specifed date]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkVehicleTrend -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.VehicleTrend_TC_014@240237d2]" name="teardown" is-config="true" duration-ms="846" started-at="2020-11-23T04:35:09Z" finished-at="2020-11-23T04:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.VehicleTrend_TC_014 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.Login_TC_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Login_TC_001@7d68ef40]" name="setup" is-config="true" duration-ms="12141" started-at="2020-11-23T04:22:08Z" finished-at="2020-11-23T04:22:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Login_TC_001@7d68ef40]" name="LoginTest" duration-ms="22682" started-at="2020-11-23T04:22:20Z" finished-at="2020-11-23T04:22:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[URL is opened]]>
+            </line>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Homepage is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Login_TC_001@7d68ef40]" name="teardown" is-config="true" duration-ms="740" started-at="2020-11-23T04:22:42Z" finished-at="2020-11-23T04:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Login_TC_001@7d68ef40]" name="setup" is-config="true" duration-ms="10983" started-at="2020-11-23T04:36:54Z" finished-at="2020-11-23T04:37:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checklogo()[pri:1, instance:com.sunmobility.qa.RegressionTestcases.Login_TC_001@7d68ef40]" name="checklogo" duration-ms="19567" started-at="2020-11-23T04:37:05Z" finished-at="2020-11-23T04:37:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[application logo is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checklogo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Login_TC_001@7d68ef40]" name="teardown" is-config="true" duration-ms="815" started-at="2020-11-23T04:37:24Z" finished-at="2020-11-23T04:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.Login_TC_001 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015@25a65b77]" name="setup" is-config="true" duration-ms="11722" started-at="2020-11-23T04:35:10Z" finished-at="2020-11-23T04:35:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkBatteryServiceTrend()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015@25a65b77]" name="checkBatteryServiceTrend" duration-ms="40233" started-at="2020-11-23T04:35:22Z" finished-at="2020-11-23T04:36:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Selecting specifed  location]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to Battery-serviceTrend]]>
+            </line>
+            <line>
+              <![CDATA[selecting the specifed service-loaction and stationID]]>
+            </line>
+            <line>
+              <![CDATA[selecting soc change]]>
+            </line>
+            <line>
+              <![CDATA[selecting the required date]]>
+            </line>
+            <line>
+              <![CDATA[click on submit]]>
+            </line>
+            <line>
+              <![CDATA[Battery service Time Trend data is displayed for specifed zone and soc]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkBatteryServiceTrend -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015@25a65b77]" name="teardown" is-config="true" duration-ms="793" started-at="2020-11-23T04:36:02Z" finished-at="2020-11-23T04:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.BatteryLive_TC_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryLive_TC_003@75c072cb]" name="setup" is-config="true" duration-ms="11049" started-at="2020-11-23T04:23:25Z" finished-at="2020-11-23T04:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkBateryLive()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryLive_TC_003@75c072cb]" name="checkBateryLive" duration-ms="25534" started-at="2020-11-23T04:23:36Z" finished-at="2020-11-23T04:24:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the specified locatiion for Battery status]]>
+            </line>
+            <line>
+              <![CDATA[Navigating BatteryLivePage]]>
+            </line>
+            <line>
+              <![CDATA[BatteryLive page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkBateryLive -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryLive_TC_003@75c072cb]" name="teardown" is-config="true" duration-ms="758" started-at="2020-11-23T04:24:02Z" finished-at="2020-11-23T04:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.BatteryLive_TC_003 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.BatteryLastseenreport_TC_009">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryLastseenreport_TC_009@20d3d15a]" name="setup" is-config="true" duration-ms="9413" started-at="2020-11-23T04:29:44Z" finished-at="2020-11-23T04:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkBatteryLasetseen()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryLastseenreport_TC_009@20d3d15a]" name="checkBatteryLasetseen" duration-ms="77345" started-at="2020-11-23T04:29:53Z" finished-at="2020-11-23T04:31:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[navigating to batterylast-seen]]>
+            </line>
+            <line>
+              <![CDATA[selecting the specifed zone]]>
+            </line>
+            <line>
+              <![CDATA[BatteryLastseen data is displayed for specified zone]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkBatteryLasetseen -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryLastseenreport_TC_009@20d3d15a]" name="teardown" is-config="true" duration-ms="759" started-at="2020-11-23T04:31:11Z" finished-at="2020-11-23T04:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.BatteryLastseenreport_TC_009 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.Batterysummary_TC_006">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Batterysummary_TC_006@2b546384]" name="setup" is-config="true" duration-ms="13577" started-at="2020-11-23T04:26:55Z" finished-at="2020-11-23T04:27:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkBatterysummary()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Batterysummary_TC_006@2b546384]" name="checkBatterysummary" duration-ms="46625" started-at="2020-11-23T04:27:08Z" finished-at="2020-11-23T04:27:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Selecting location]]>
+            </line>
+            <line>
+              <![CDATA[selecting service location]]>
+            </line>
+            <line>
+              <![CDATA[selecting specified location]]>
+            </line>
+            <line>
+              <![CDATA[selecting the specifed stationID]]>
+            </line>
+            <line>
+              <![CDATA[The selected data is displayed for specified location and stationID]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkBatterysummary -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Batterysummary_TC_006@2b546384]" name="teardown" is-config="true" duration-ms="749" started-at="2020-11-23T04:27:55Z" finished-at="2020-11-23T04:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.Batterysummary_TC_006 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016@2ed0fbae]" name="setup" is-config="true" duration-ms="13182" started-at="2020-11-23T04:36:03Z" finished-at="2020-11-23T04:36:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkPiaggioData()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016@2ed0fbae]" name="checkPiaggioData" duration-ms="37272" started-at="2020-11-23T04:36:16Z" finished-at="2020-11-23T04:36:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to PiaggioData page]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the specifed zone]]>
+            </line>
+            <line>
+              <![CDATA[Selcting the specifed vehicle ]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the specifed manufacturer]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the date range for data]]>
+            </line>
+            <line>
+              <![CDATA[Data is displayed for specifed zone ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkPiaggioData -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016@2ed0fbae]" name="teardown" is-config="true" duration-ms="748" started-at="2020-11-23T04:36:53Z" finished-at="2020-11-23T04:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012@2c34f934]" name="setup" is-config="true" duration-ms="9442" started-at="2020-11-23T04:32:47Z" finished-at="2020-11-23T04:32:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkBatteryserviceTime()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012@2c34f934]" name="checkBatteryserviceTime" duration-ms="36804" started-at="2020-11-23T04:32:57Z" finished-at="2020-11-23T04:33:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Selecting specifed location]]>
+            </line>
+            <line>
+              <![CDATA[Naviagting to battery service-Time]]>
+            </line>
+            <line>
+              <![CDATA[selected date batterydata is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkBatteryserviceTime -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012@2c34f934]" name="teardown" is-config="true" duration-ms="781" started-at="2020-11-23T04:33:34Z" finished-at="2020-11-23T04:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.SwapReport_TC_007">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.SwapReport_TC_007@5d740a0f]" name="setup" is-config="true" duration-ms="11111" started-at="2020-11-23T04:27:56Z" finished-at="2020-11-23T04:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkswapreport()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.SwapReport_TC_007@5d740a0f]" name="checkswapreport" duration-ms="45326" started-at="2020-11-23T04:28:07Z" finished-at="2020-11-23T04:28:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[url is opened]]>
+            </line>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Selecting location]]>
+            </line>
+            <line>
+              <![CDATA[navigating to swap-report]]>
+            </line>
+            <line>
+              <![CDATA[selecting service location]]>
+            </line>
+            <line>
+              <![CDATA[selecting specified location]]>
+            </line>
+            <line>
+              <![CDATA[selecting the specifed stationID]]>
+            </line>
+            <line>
+              <![CDATA[The selected data is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkswapreport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.SwapReport_TC_007@5d740a0f]" name="teardown" is-config="true" duration-ms="762" started-at="2020-11-23T04:28:52Z" finished-at="2020-11-23T04:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.SwapReport_TC_007 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.BatteryAlerts_TC_005">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryAlerts_TC_005@25b485ba]" name="setup" is-config="true" duration-ms="18835" started-at="2020-11-23T04:25:17Z" finished-at="2020-11-23T04:25:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkBatteyAlerts()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryAlerts_TC_005@25b485ba]" name="checkBatteyAlerts" duration-ms="78431" started-at="2020-11-23T04:25:36Z" finished-at="2020-11-23T04:26:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to Battery alerts page]]>
+            </line>
+            <line>
+              <![CDATA[Selecting specified location]]>
+            </line>
+            <line>
+              <![CDATA[Battery alerts displayed for specided BatteryID]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkBatteyAlerts -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.BatteryAlerts_TC_005@25b485ba]" name="teardown" is-config="true" duration-ms="779" started-at="2020-11-23T04:26:54Z" finished-at="2020-11-23T04:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.BatteryAlerts_TC_005 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.Daily_Vehicle_Report_TC_010">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Daily_Vehicle_Report_TC_010@2893de87]" name="setup" is-config="true" duration-ms="11852" started-at="2020-11-23T04:31:11Z" finished-at="2020-11-23T04:31:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkVehicleReport()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Daily_Vehicle_Report_TC_010@2893de87]" name="checkVehicleReport" duration-ms="36388" started-at="2020-11-23T04:31:23Z" finished-at="2020-11-23T04:32:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[URL is opened]]>
+            </line>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to Daily-vehcile report]]>
+            </line>
+            <line>
+              <![CDATA[showing the selected data]]>
+            </line>
+            <line>
+              <![CDATA[DailyVehicleReport Data is displayed for particular location]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkVehicleReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Daily_Vehicle_Report_TC_010@2893de87]" name="teardown" is-config="true" duration-ms="771" started-at="2020-11-23T04:32:00Z" finished-at="2020-11-23T04:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.Daily_Vehicle_Report_TC_010 -->
+      <class name="com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004@1f1c7bf6]" name="setup" is-config="true" duration-ms="11075" started-at="2020-11-23T04:24:03Z" finished-at="2020-11-23T04:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="clickonstationalert()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004@1f1c7bf6]" name="clickonstationalert" duration-ms="23580" started-at="2020-11-23T04:24:14Z" finished-at="2020-11-23T04:24:37Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span _ngcontent-rug-c15="" class="pcoded-mtext">...</span> is not clickable at point (49, 282). Other element would receive the click: <span _ngcontent-rug-c15="" class="pcoded-micon">...</span>
+  (Session info: MicrosoftEdge=87.0.664.41)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6581DCU', ip: '10.10.30.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 87.0.664.41, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50707}, msedge: {msedgedriverVersion: 86.0.622.48 (222fc868353db8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7bff3c53fc5a21f41eee447d76b9b9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-rug-c15="" class="pcoded-mtext">...</span> is not clickable at point (49, 282). Other element would receive the click: <span _ngcontent-rug-c15="" class="pcoded-micon">...</span>
+  (Session info: MicrosoftEdge=87.0.664.41)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6581DCU', ip: '10.10.30.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 87.0.664.41, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50707}, msedge: {msedgedriverVersion: 86.0.622.48 (222fc868353db8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7bff3c53fc5a21f41eee447d76b9b9a1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy8.click(Unknown Source)
+at com.sunmobility.qa.RegressionTestcases.Baseclass.webdriverwait(Baseclass.java:115)
+at com.sunmobility.qa.pages.StationalertsLivePage.clickonstationalert(StationalertsLivePage.java:42)
+at com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004.clickonstationalert(StationalertsLive_TC_004.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to stationalertlive]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickonstationalert -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004@1f1c7bf6]" name="teardown" is-config="true" duration-ms="806" started-at="2020-11-23T04:24:37Z" finished-at="2020-11-23T04:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004@1f1c7bf6]" name="setup" is-config="true" duration-ms="9383" started-at="2020-11-23T04:24:38Z" finished-at="2020-11-23T04:24:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonstationalert()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004@1f1c7bf6]" name="clickonstationalert" duration-ms="28309" started-at="2020-11-23T04:24:48Z" finished-at="2020-11-23T04:25:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Entering user credentials]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to stationalertlive]]>
+            </line>
+            <line>
+              <![CDATA[Station alerts page displayed with station information]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickonstationalert -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004@1f1c7bf6]" name="teardown" is-config="true" duration-ms="957" started-at="2020-11-23T04:25:16Z" finished-at="2020-11-23T04:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004 -->
+    </test> <!-- CNCv3 AutomationTest Chrome-Browser -->
+  </suite> <!-- CNCv3Autoamtion -->
+</testng-results>

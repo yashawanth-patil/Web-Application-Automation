@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-15T09:19:31 IST" name="Default suite" finished-at="2021-04-15T09:19:34 IST" duration-ms="2879">
+    <groups>
+    </groups>
+    <test started-at="2021-04-15T09:19:31 IST" name="Default test" finished-at="2021-04-15T09:19:34 IST" duration-ms="2879">
+      <class name="com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012@4e7912d8]" started-at="2021-04-15T09:19:32 IST" name="setup" finished-at="2021-04-15T09:19:34 IST" duration-ms="2810" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: MSEdge failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so MSEdgeDriver is assuming that MSEdge has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6581DCU', ip: '10.10.30.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00007FF7C11E1102+4133122]
+Ordinal0 [0x00007FF7C10BA329+2925353]
+Ordinal0 [0x00007FF7C0F23A37+1260087]
+Ordinal0 [0x00007FF7C0E739DB+539099]
+Ordinal0 [0x00007FF7C0E6C551+509265]
+Ordinal0 [0x00007FF7C0E9E2D6+713430]
+Ordinal0 [0x00007FF7C0E9C61F+706079]
+Ordinal0 [0x00007FF7C0E78713+558867]
+Ordinal0 [0x00007FF7C0E794AB+562347]
+Ordinal0 [0x00007FF7C10D762D+3044909]
+GetHandleVerifier [0x00007FF7C13281A9+1215881]
+GetHandleVerifier [0x00007FF7C1339F81+1289057]
+GetHandleVerifier [0x00007FF7C1328B39+1218329]
+Ordinal0 [0x00007FF7C10CAB11+2992913]
+Ordinal0 [0x00007FF7C10D9515+3052821]
+Ordinal0 [0x00007FF7C10EE7A7+3139495]
+BaseThreadInitThunk [0x00007FFC7C437034+20]
+RtlUserThreadStart [0x00007FFC7DA62651+33]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: MSEdge failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so MSEdgeDriver is assuming that MSEdge has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6581DCU', ip: '10.10.30.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00007FF7C11E1102+4133122]
+Ordinal0 [0x00007FF7C10BA329+2925353]
+Ordinal0 [0x00007FF7C0F23A37+1260087]
+Ordinal0 [0x00007FF7C0E739DB+539099]
+Ordinal0 [0x00007FF7C0E6C551+509265]
+Ordinal0 [0x00007FF7C0E9E2D6+713430]
+Ordinal0 [0x00007FF7C0E9C61F+706079]
+Ordinal0 [0x00007FF7C0E78713+558867]
+Ordinal0 [0x00007FF7C0E794AB+562347]
+Ordinal0 [0x00007FF7C10D762D+3044909]
+GetHandleVerifier [0x00007FF7C13281A9+1215881]
+GetHandleVerifier [0x00007FF7C1339F81+1289057]
+GetHandleVerifier [0x00007FF7C1328B39+1218329]
+Ordinal0 [0x00007FF7C10CAB11+2992913]
+Ordinal0 [0x00007FF7C10D9515+3052821]
+Ordinal0 [0x00007FF7C10EE7A7+3139495]
+BaseThreadInitThunk [0x00007FFC7C437034+20]
+RtlUserThreadStart [0x00007FFC7DA62651+33]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at com.sunmobility.qa.RegressionTestcases.Baseclass.setup(Baseclass.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkBatteryserviceTime()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012@4e7912d8]" started-at="2021-04-15T09:19:34 IST" name="checkBatteryserviceTime" finished-at="2021-04-15T09:19:34 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: MSEdge failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so MSEdgeDriver is assuming that MSEdge has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6581DCU', ip: '10.10.30.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00007FF7C11E1102+4133122]
+Ordinal0 [0x00007FF7C10BA329+2925353]
+Ordinal0 [0x00007FF7C0F23A37+1260087]
+Ordinal0 [0x00007FF7C0E739DB+539099]
+Ordinal0 [0x00007FF7C0E6C551+509265]
+Ordinal0 [0x00007FF7C0E9E2D6+713430]
+Ordinal0 [0x00007FF7C0E9C61F+706079]
+Ordinal0 [0x00007FF7C0E78713+558867]
+Ordinal0 [0x00007FF7C0E794AB+562347]
+Ordinal0 [0x00007FF7C10D762D+3044909]
+GetHandleVerifier [0x00007FF7C13281A9+1215881]
+GetHandleVerifier [0x00007FF7C1339F81+1289057]
+GetHandleVerifier [0x00007FF7C1328B39+1218329]
+Ordinal0 [0x00007FF7C10CAB11+2992913]
+Ordinal0 [0x00007FF7C10D9515+3052821]
+Ordinal0 [0x00007FF7C10EE7A7+3139495]
+BaseThreadInitThunk [0x00007FFC7C437034+20]
+RtlUserThreadStart [0x00007FFC7DA62651+33]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: MSEdge failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so MSEdgeDriver is assuming that MSEdge has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6581DCU', ip: '10.10.30.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00007FF7C11E1102+4133122]
+Ordinal0 [0x00007FF7C10BA329+2925353]
+Ordinal0 [0x00007FF7C0F23A37+1260087]
+Ordinal0 [0x00007FF7C0E739DB+539099]
+Ordinal0 [0x00007FF7C0E6C551+509265]
+Ordinal0 [0x00007FF7C0E9E2D6+713430]
+Ordinal0 [0x00007FF7C0E9C61F+706079]
+Ordinal0 [0x00007FF7C0E78713+558867]
+Ordinal0 [0x00007FF7C0E794AB+562347]
+Ordinal0 [0x00007FF7C10D762D+3044909]
+GetHandleVerifier [0x00007FF7C13281A9+1215881]
+GetHandleVerifier [0x00007FF7C1339F81+1289057]
+GetHandleVerifier [0x00007FF7C1328B39+1218329]
+Ordinal0 [0x00007FF7C10CAB11+2992913]
+Ordinal0 [0x00007FF7C10D9515+3052821]
+Ordinal0 [0x00007FF7C10EE7A7+3139495]
+BaseThreadInitThunk [0x00007FFC7C437034+20]
+RtlUserThreadStart [0x00007FFC7DA62651+33]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at com.sunmobility.qa.RegressionTestcases.Baseclass.setup(Baseclass.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBatteryserviceTime -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012@4e7912d8]" started-at="2021-04-15T09:19:34 IST" name="teardown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1618458574862" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

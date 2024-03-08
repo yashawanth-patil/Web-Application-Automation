@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CNCv3Autoamtion"  >
+
+
+<listeners>
+<listener class-name="com.sunmobility.qa.Utilites.Reporting" />
+<listener class-name="com.sunmobility.qa.Utilites.MyTransformer"/>
+</listeners>
+
+
+<test name="CNCv3 AutomationTest Chrome-Browser">
+<parameter  name="browser" value="edge"/> 
+  <groups>
+         <run>
+            <exclude name = "Smoke Test"/>
+         </run>
+      </groups>
+
+ <classes>
+    
+    <class name="com.sunmobility.qa.RegressionTestcases.Login_TC_001"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.BatteryStationLive_TC_002"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.BatteryLive_TC_003"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.StationalertsLive_TC_004"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.BatteryAlerts_TC_005"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.Batterysummary_TC_006"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.SwapReport_TC_007"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.BatterysummaryTIU_TC_008"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.BatteryLastseenreport_TC_009"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.Daily_Vehicle_Report_TC_010"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.Daily_Station_Report_TC_011"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.Battery_Service_Time_TC_012"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.StationTrend_TC_013"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.VehicleTrend_TC_014"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.BatteryServiceTimeTrend_TC_015"/>
+    <class name="com.sunmobility.qa.RegressionTestcases.PiaggioDriveData_TC_016"/>
+    
+    
+     </classes>
+    
+ </test>
+</suite>
