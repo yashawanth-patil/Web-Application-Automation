@@ -54,6 +54,7 @@ Web-Application-Automation
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/yashawanth-patil/Web-Application-Automation.git](https://github.com/yashawanth-patil/Web-Application-Automation.git)
+
 cd Web-Application-Automation
 ```
 
